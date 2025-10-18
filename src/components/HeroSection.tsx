@@ -8,6 +8,13 @@ export const HeroSection = () => {
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
+          <div className="flex justify-center items-center my-6 opacity-0 animate-fade-in p-2">
+            <img
+              src="/cv_photo.jpg"
+              alt="Enrique Plaza"
+              className="w-36 h-36 md:w-52 md:h-52 rounded-full object-cover border-4 border-gray-300 shadow-lg"
+            />
+          </div>
           <h1 className="text-4xl md:tex-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in">Hi, I'm </span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
